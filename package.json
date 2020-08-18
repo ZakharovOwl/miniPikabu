@@ -1,0 +1,32 @@
+{
+  "name": "mini-pikabu",
+  "version": "1.0.0",
+  "description": "js native blog ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZakharovOwl/miniPikabu.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Zakharov Aleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZakharovOwl/miniPikabu/issues"
+  },
+  "homepage": "https://github.com/ZakharovOwl/miniPikabu#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
