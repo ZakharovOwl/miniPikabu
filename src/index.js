@@ -1,1 +1,3 @@
-console.log('Hi');
+async function app(){
+    await fetch('hi')
+}
