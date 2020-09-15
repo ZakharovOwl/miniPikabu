@@ -1,19 +1,16 @@
-export class Component{
-    constructor(id){
-        this.$el = document.getElementById(id) //для скорости использовал getElementById
-        this.init()
-    }
+export class Component {
+  constructor(id) {
+    this.$el = document.getElementById(id)
+    this.init()
+  }
 
-    init(){}
+  init() {}
 
-    hide(){
-        this.$el.classList.add('hide')
-    }
+  hide() {
+    this.$el.classList.add('hide')
+  }
 
-    show(){
-        this.$el.classList.remove('hide')
-    }
-
+  show() {
+    this.$el.classList.remove('hide')
+  }
 }
-
-
