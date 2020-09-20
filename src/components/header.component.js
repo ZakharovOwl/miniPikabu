@@ -6,7 +6,7 @@ export class HeaderComponent extends Component {
   }
 
   init() {
-    if(localStorage.getItem('visited')){
+    if (localStorage.getItem('visited')) {
       this.hide()
     }
     const btn = this.$el.querySelector('.js-header-start')
@@ -15,6 +15,6 @@ export class HeaderComponent extends Component {
 }
 
 function buttonHandler() {
-  localStorage.setItem('visited',JSON.stringify(true))
+  localStorage.setItem('visited', JSON.stringify(true))
   this.hide()
 }
